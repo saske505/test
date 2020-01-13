@@ -1,0 +1,533 @@
+/* UI Version 2*/
+
+
+/* Active and selected styles*/
+
+button:focus {
+    outline: 0 !important;
+}
+
+
+/* End*/
+
+.grey {
+    min-height: 100px;
+    background: #E8E8E8 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.cl-left {
+    left: 45%;
+    position: relative;
+    margin-bottom: 1.4em;
+}
+
+.cl-right {
+    position: relative;
+    right: 45%;
+    margin-bottom: 1.4em;
+}
+
+.light-grey {
+    min-height: 100px;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 2em;
+}
+
+.assessment-header {
+    text-align: left;
+    font: Bold 35px/42px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+.assessment-p {
+    text-align: left;
+    font: Regular 15px/25px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.assessment-p span {
+    text-align: left;
+    font: Bold 15px/25px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+}
+
+.btn-group {
+    display: table;
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-group-left {
+    height: 40px;
+    background: #DB262C 0% 0% no-repeat padding-box;
+    border-radius: 35px 3px 3px 35px;
+    opacity: 1;
+    width: 220px;
+    color: white;
+}
+
+.btn-group-left:active {
+    border: 2px solid #ED2C33;
+}
+
+button.btn.btn-secondary.btn-group-center {
+    width: 90px;
+    margin-left: 2px;
+    margin-right: 6px;
+    border: 2px solid #db262c;
+    color: #db262c;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 24px;
+    height: 40px;
+    background: white;
+}
+
+.btn-group-center:active {
+    border: 2px solid #ED2C33;
+}
+
+.btn-group-right {
+    width: 220px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #0000001A;
+    border-radius: 3px 35px 35px 3px;
+    opacity: 1;
+}
+
+.btn-group-right:active {
+    border: 2px solid #ED2C33;
+}
+
+.card {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 3px #00000014;
+    border: 1px solid #e4e4e452;
+    border-radius: 3px;
+    opacity: 1;
+    min-height: 61px;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+    font-family: Helvetica;
+    height: 5;
+}
+
+.card .title {
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: 0;
+    color: #2d2d2d;
+    /* opacity: 1; */
+}
+
+.card .seperate {
+    border-left: 1px solid #e6e6e6;
+    min-height: 60px;
+}
+
+.card .header {
+    position: relative;
+    top: 18px;
+    margin-left: 1.4em;
+    font-size: 18px;
+    padding: 10;
+    letter-spacing: 0;
+    color: #2d2d2d;
+    opacity: 1;
+}
+
+.card .metric {
+    padding: 15px;
+    position: relative;
+    left: 3px;
+    top: 2px;
+    text-align: center;
+    text-align: left;
+    font: Bold 22px/26px Helvetica;
+    letter-spacing: 0;
+    color: #5e5e5e;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+img.img-circle {
+    height: 100px;
+    margin-left: auto;
+    width: 100px;
+    margin-right: auto;
+    display: table;
+    table-layout: auto;
+}
+
+.container {
+    min-height: 1;
+}
+
+.team-score-right {
+    text-align: left;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    text-transform: uppercase;
+    opacity: 1;
+    font: Bold 28px/40px Helvetica;
+}
+
+.team-score-left {
+    text-align: right !important;
+    /* font: Bold 28px/40px Helvetica; */
+    letter-spacing: 0;
+    /* color: #ED2C33; */
+    /* text-align: center; */
+    font: Bold 28px/40px Helvetica;
+    letter-spacing: 0;
+    color: #ED2C33;
+}
+
+.devider {
+    border-right: 1px solid rgb(228, 228, 228);
+    text-align: center;
+    font: 15px/22px Helvetica;
+    letter-spacing: 0;
+    color: #5E5E5E;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 16px;
+}
+
+.assessment-title {
+    text-align: left;
+    font: Bold 30px/36px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+.button-container-overlay {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    top: -30px;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+    font: Bold 18px/22px Helvetica;
+}
+
+.overlay-left {
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #ED2C33;
+    border-radius: 40px 3px 3px 40px;
+    opacity: 1;
+}
+
+.overlay-center {
+    width: 200px;
+    height: 60px;
+    background: #ED2C33 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.overlay-right {
+    width: 200px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 3px 40px 40px 3px;
+    opacity: 1;
+}
+
+.print-assessment-btn {
+    width: 250px;
+    height: 60px;
+    background: #EB3A41 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 2px #0000001A;
+    border-radius: 30px;
+    opacity: 1;
+}
+
+button.btn.btn-secondary.print-assessment-btn {
+    text-align: center;
+    font: Bold 18px/13px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+h4.assesment-title {
+    font: Bold 30px/20px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+    position: relative;
+    text-align: center;
+    top: 20px;
+}
+
+button.btn.btn-secondary.overlay-center {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.overall-circle {
+    width: 100px;
+    height: 100px;
+    background: #FFAD2E 0% 0% no-repeat padding-box;
+    border: 5px solid #F0F0F0;
+    opacity: 1;
+    border-radius: 50%;
+    display: table;
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -53px;
+}
+
+.rating-container {
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    opacity: 1;
+    position: relative;
+    top: 45px;
+    width: 800px;
+    left: 15%;
+}
+
+.overall-circle-text {
+    display: table;
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: -webkit-xxx-large;
+    color: white;
+    position: relative;
+    top: 35px;
+    /* text-align: left; */
+    font: Bold 35px/22px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.overall-circle-check {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    border-radius: 50%;
+    position: relative;
+    top: 45px;
+    display: table;
+    table-layout: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.overall-heading {
+    position: absolute;
+    text-align: center;
+    left: 45.5%;
+    bottom: -15px;
+    text-align: center;
+    font: Bold 12px/17px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    text-transform: uppercase;
+}
+
+.overall-circle-check i {
+    position: relative;
+    top: 8px;
+    text-align: center;
+    left: 10px;
+    font-size: 15px;
+    border: none;
+    color: black;
+}
+
+.refere-rateing {
+    display: -webkit-inline-box;
+    position: relative;
+    top: 20px;
+}
+
+.referee-rating-check {
+    position: absolute;
+    top: -35px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background: white;
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    z-index: 10;
+    left: -15px;
+}
+
+.referee-rating-number {
+    width: 80px;
+    height: 36px;
+    background: #00D2AA 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    position: relative;
+    bottom: 9px;
+    left: 10px;
+}
+
+.referee-rating-number .number {
+    text-align: center;
+    position: relative;
+    top: 8px;
+    color: white;
+    z-index: 0;
+}
+
+.number {}
+
+.referee-rating-text {
+    margin-left: 30px;
+}
+
+.coach-rating {
+    display: -webkit-inline-box;
+    float: right;
+    display: -webkit-inline-box;
+    position: relative;
+    bottom: 102px;
+}
+
+.coach-rating-check {
+    position: absolute;
+    top: -49px;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    background: white;
+    border: 1px solid #E4E4E4;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    z-index: 10;
+    left: 134px;
+    width: 43px;
+}
+
+.coach-rating-number {
+    width: 80px;
+    height: 36px;
+    background: #00D2AA 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    position: relative;
+    bottom: 24px;
+    left: -10px;
+}
+
+.coach-rating-number .number {
+    text-align: center;
+    position: relative;
+    top: 8px;
+    color: white;
+    z-index: 0;
+}
+
+.coach-rating-text {
+    position: relative;
+    right: 30px;
+    bottom: 14px;
+}
+
+button.btn.btn-secondary.overlay-left.ripple {
+    /* text-align: left; */
+    font: Bold 18px/22px Helvetica;
+    letter-spacing: 0;
+    color: #ED2C33;
+    opacity: 1;
+    transition: 0.4s;
+}
+
+button.btn.btn-secondary.overlay-left.ripple:active {
+    font: Bold 18px/22px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+button.btn.btn-secondary.overlay-center.ripple {
+    /* text-align: left; */
+    font: Bold 18px/22px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+button.btn.btn-secondary.overlay-right.ripple {
+    /* text-align: left; */
+    font: Bold 18px/22px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    opacity: 1;
+}
+
+button.btn.btn-secondary.btn-group-left {
+    /* text-align: center; */
+    font: Bold 15px/29px Helvetica;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+button.btn.btn-secondary.btn-group-right {
+    text-align: center;
+    font: Bold 15px/28px Helvetica;
+    letter-spacing: 0;
+    color: #2D2D2D;
+    text-transform: uppercase;
+}
+
+span.text {
+    text-align: center;
+    font: Bold 13px/23px Helvetica;
+    letter-spacing: 0;
+    color: #5E5E5E;
+    text-transform: uppercase;
+}
+
+h4.title {
+    position: relative;
+    top: 2em;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #d1d1d1;
+}
+
+.card.three {
+    /* min-height: 200px!important; */
+}
